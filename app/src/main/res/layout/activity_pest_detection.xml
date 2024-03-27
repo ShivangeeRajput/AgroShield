@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pest_Detection"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/dashboard_bg">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:text="𝐏𝐥𝐚𝐧𝐭 𝐇𝐞𝐚𝐥𝐭𝐡 𝐈𝐝𝐞𝐧𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧🌱"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="442dp"
+        android:layout_below="@id/ll"
+        android:layout_gravity="center"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/plant"
+        android:scaleType="fitCenter" />
+
+
+    <TextView
+        android:id="@+id/classified"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="160dp"
+        android:gravity="center"
+        android:text="Detected"
+        android:textColor="#6495ED"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/click_here"
+        android:layout_width="323sp"
+        android:layout_height="33dp"
+        android:layout_alignStart="@+id/result"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/dashboard_bg"
+        android:gravity="center"
+        android:text="Click on pest name to know more about pest"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="191dp"
+        android:layout_marginBottom="198dp"
+        android:background="@drawable/ic_camera"
+        android:backgroundTint="@color/black"
+        android:elevation="2dp"
+        android:gravity="bottom" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="404dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/classified"
+        android:layout_alignTop="@+id/classified"
+        android:layout_alignBottom="@+id/classified"
+        android:layout_marginStart="-19dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="-56dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:lineSpacingMultiplier="0.9"
+        android:text=""
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menupage"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/dashboard_bg">
+
+        <TextView
+            android:id="@+id/phi"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:text="           𝐂𝐚𝐭𝐞𝐠𝐨𝐫𝐢𝐞𝐬🌱"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/anima">
+
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="420dp"
+            android:layout_height="250dp"
+            android:columnCount="2"
+            android:rowCount="1"
+            android:layout_gravity="center"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvlearnings"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="#00000000"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="449dp">
+
+
+                <ImageView
+                    android:id="@+id/ivlearnings"
+                    android:layout_width="153dp"
+                    android:layout_height="match_parent"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/plantcre" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvquizzing"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="#00000000"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="449dp">
+
+
+                <ImageView
+                    android:id="@+id/ivquizzing"
+                    android:layout_width="148dp"
+                    android:layout_height="150dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/plantss" />
+
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="-10dp"
+        android:background="@drawable/bottom_app_bar_bg"
+        android:elevation="4dp"
+        android:foregroundGravity="bottom"
+        app:itemIconTint="@drawable/bottom_icon_selector"
+        app:itemTextColor="@drawable/bottom_icon_selector"
+        app:menu="@menu/bottom_menu" />
+
+</RelativeLayout>
