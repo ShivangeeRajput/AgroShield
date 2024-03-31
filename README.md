@@ -1,14 +1,13 @@
-# AgroShield- Application to detect the plant disease
+# AgroShield- Application to detect plant disease by analyzing images of plant leaves
 
- An Application designed to detect plant disease by using the plant leaf image.
+
 
 The following **required** functionality is completed:
-* [x] Splash Screen.
-* [x] Bottom Navigation Bar.
-* [x] User can click on Sign in button and create an account.
-* [x] User can  click on Log in button.
-* [x] The user can click on the camera button to detect Real-time Plant Disease.
-* [x] The user can click on profile fragment and then  menu in order to Sign Out.
+
+* [x] Completed functionalities include Splash Screen and Bottom Navigation Bar.
+* [x] User can create or register using Gmail account.
+* [x] Real-time plant disease detection available via camera.
+* [x] The user can click on the profile fragment and then  the menu in order to Sign Out.
 
 
 ## Screenshots
@@ -26,12 +25,24 @@ The following **required** functionality is completed:
 
 
     
-## Libraries used:
+
+  
+## Built With 🛠
+  
+- [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
+- [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - For All Asynchronous operations in project
+- [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) - Collection of libraries that help you design robust, testable, and maintainable apps.
+  - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores UI-related data that isn't destroyed on UI changes. 
+  - [ViewBinding](https://developer.android.com/topic/libraries/view-binding) - Generates a binding class for each XML layout file present in that module and allows you to more easily write code that interacts with views.
+- [Navigation Component](https://developer.android.com/guide/navigation) - Allows to specify navigation throughout app using an XML graph or via a graph editor.
+- [Glide](https://github.com/bumptech/glide) - An image loading library for Android
+- [Material Components for Android](https://github.com/material-components/material-components-android) - Material Components are a set of UI components that helps you build Android apps with Material Design
+- [Lottie Animation](https://github.com/airbnb/lottie-android) - Mobile library for Android and iOS that parses Adobe After Effects animations exported as json with Bodymovin and renders them natively on mobile!
 *   [Firebase Authentication](https://firebase.google.com/docs/auth/)
-*   [Firebase Realtime Database](https://firebase.google.com/docs/database/)
 *   [Tensorflow](https://www.tensorflow.org/lite)
 *   [Tf Lite ](https://www.tensorflow.org/lite/)
 *   [Keras](https://keras.io/)
+## Currently working on additional features...
   
 
 ## Notes
