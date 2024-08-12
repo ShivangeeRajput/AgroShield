@@ -16,6 +16,8 @@ The following **required** functionality is completed:
 <img src="https://github.com/ShivangeeRajput/AgroShield/assets/100294737/982c9f09-c563-4031-8853-d432a14d667e.jpg" height="500">
 <img src="https://github.com/ShivangeeRajput/AgroShield/assets/100294737/ed59ac4d-ae77-485f-b5ec-b200129bad66.jpg" height="500" >
 <img src="https://github.com/ShivangeeRajput/AgroShield/assets/100294737/42ccea5c-72c7-4a80-b6ab-6066e6b0b59c.jpg" height="500">
+<img src="https://github.com/user-attachments/assets/ce677dba-5e9f-408a-b905-1f3e0fa66b4a" height="500">
+<img src="https://github.com/user-attachments/assets/7c6c1206-ee84-465d-9ea8-7cb36c16f5f9" height="500">
 <img src="https://github.com/ShivangeeRajput/AgroShield/assets/100294737/12442025-a9fc-4b61-8794-8e613fb3d98a.jpg" height="500"> 
 <img src="https://github.com/ShivangeeRajput/AgroShield/assets/100294737/3ea6ddac-24ec-4a4d-b9a2-3783ac0d7e7b.jpg" height="500" >
 
